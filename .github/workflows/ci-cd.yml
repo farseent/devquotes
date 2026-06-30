@@ -86,7 +86,7 @@ jobs:
         with:
           context: ./backend
           push: true
-          tags: farseent247/devquotes-backend:latest
+          tags: farseen247/devquotes-backend:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
@@ -95,7 +95,7 @@ jobs:
         with:
           context: ./frontend
           push: true
-          tags: farseent247/devquotes-frontend:latest
+          tags: farseen247/devquotes-frontend:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
